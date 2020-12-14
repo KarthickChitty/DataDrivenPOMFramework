@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 1.082 s <<< FAILURE! - in TestSuite
+com.auto.testcases.AddCustomerTest.startUp  Time elapsed: 0.899 s  <<< FAILURE!
+java.lang.IllegalAccessError: class org.openqa.selenium.net.UrlChecker tried to access private method 'void com.google.common.util.concurrent.SimpleTimeLimiter.<init>(java.util.concurrent.ExecutorService)' (org.openqa.selenium.net.UrlChecker and com.google.common.util.concurrent.SimpleTimeLimiter are in unnamed module of loader 'app')
+

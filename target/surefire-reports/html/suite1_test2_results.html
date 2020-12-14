@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - AddCustomer Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>AddCustomer Test</h1>
+<p>
+  Test duration: -1591042023.327s
+</p>
+
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">com.auto.testcases.AddCustomerTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  startUp
+      </td>
+  <td class="duration">
+    0.303s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.IllegalAccessError: class org.openqa.selenium.net.UrlChecker tried to access private method &apos;void com.google.common.util.concurrent.SimpleTimeLimiter.&lt;init&gt;(java.util.concurrent.ExecutorService)&apos; (org.openqa.selenium.net.UrlChecker and com.google.common.util.concurrent.SimpleTimeLimiter are in unnamed module of loader &apos;app&apos;)</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.net.UrlChecker.&lt;init&gt;(UrlChecker.java:67)<br />
+              org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:175)<br />
+              org.openqa.selenium.remote.service.DriverService.start(DriverService.java:166)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:170)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:159)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)<br />
+              com.auto.main.TestAutoApp.startUp(TestAutoApp.java:67)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)<br />
+              org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)<br />
+              org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)<br />
+                </div>
+      </td>
+</tr>
+    
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
+                    <tr>
+          <td colspan="3" class="group">com.auto.testcases.AddCustomerTest</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1591042023.630s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+            </table>
+
+
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.auto.testcases.AddCustomerTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  addCustomer
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  
+</body>
+</html>

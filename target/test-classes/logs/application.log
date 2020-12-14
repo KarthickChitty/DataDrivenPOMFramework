@@ -1,0 +1,7 @@
+[main] DEBUG devpinoyLogger  - Driver initiated ...
+[main] DEBUG devpinoyLogger  - Home Page Loadded
+[main] DEBUG devpinoyLogger  - Bnk Mannger click event performed
+[main] DEBUG devpinoyLogger  - Element Found
+[main] DEBUG devpinoyLogger  - TEST PASS logger
+[main] DEBUG devpinoyLogger  - TEST FAIL logger
+[main] DEBUG devpinoyLogger  - Driver tearDown Complete
